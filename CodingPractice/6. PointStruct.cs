@@ -2,9 +2,18 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CodingPractice
+
+
+
+
+struct PointStruct
 {
-    internal class _6
-    {
-    }
+    public int X;
+    public int Y;
+}
+
+class PointClass
+{
+    public int X;
+    public int Y;
 }
