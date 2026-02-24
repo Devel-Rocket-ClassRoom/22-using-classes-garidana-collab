@@ -32,7 +32,7 @@ person2.Introduce();
 
 Console.WriteLine();
 
-//5
+// 5
 // class는 "참조" 타입이기때문에 변수에는 개체 메모리의 값이 아닌 주소가 저장됨
 Point point1 = new Point();
 point1.X = 10;
@@ -45,7 +45,7 @@ Console.WriteLine($"point2.X = {point2.X}");
 
 Console.WriteLine();
 
-//6
+// 6
 PointStruct ps1 = new PointStruct();
 ps1.X = 10;
 PointStruct ps2 = ps1;
@@ -58,3 +58,5 @@ pc2.X = 1000;
 
 Console.WriteLine($"구조체: ps1.X = {ps1.X}, ps2.X = {ps2.X}");
 Console.WriteLine($"클래스: pc1.X = {pc1.X}, pc2.X = {pc2.X}");
+
+// 7
