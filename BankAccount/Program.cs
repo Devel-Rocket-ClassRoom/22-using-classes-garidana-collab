@@ -1,4 +1,15 @@
 using System;
 
-// README.md를 읽고 아래에 코드를 작성하세요.
-Console.WriteLine("코드를 작성하세요.");
+// BankAccount
+
+BankAccount ba = new("123-456-789", "홍길동");
+
+ba.ShowInfo();
+ba.Deposit(50000);
+ba.Deposit(30000);
+ba.WithDraw(20000);
+ba.WithDraw(10000000);
+ba.Deposit(-1000);
+
+ba.ShowInfo();
+
